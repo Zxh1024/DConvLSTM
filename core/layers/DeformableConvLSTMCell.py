@@ -11,7 +11,6 @@ class DeformableConvLSTMCell(nn.Module):
         self._forget_bias = 1.0
         self.conv_x = nn.Sequential(
             DeformConv2d(in_channel, num_hidden * 4, kernel_size=filter_size, stride=stride, padding=self.padding),
-            # LayerNorm是对每个样本的所有特征做归一化
             nn.LayerNorm([num_hidden * 4, width, width])
         )
         self.conv_h = nn.Sequential(
@@ -22,13 +21,6 @@ class DeformableConvLSTMCell(nn.Module):
         self.Wcf = nn.Parameter(torch.zeros(1, num_hidden, width, width)).cuda()
         self.Wcg = nn.Parameter(torch.zeros(1, num_hidden, width, width)).cuda()
         self.Wco = nn.Parameter(torch.zeros(1, num_hidden, width, width)).cuda()
-        """
-        self.conv_o = nn.Sequential(
-            nn.Conv2d(num_hidden * 2, num_hidden, kernel_size=filter_size, stride=stride, padding=self.padding),
-            nn.LayerNorm([num_hidden, width, width])
-        )
-        self.conv_last = nn.Conv2d(num_hidden * 2, num_hidden, kernel_size=1, stride=1, padding=0)
-        """
 
     def forward(self, x_t, h_t, c_t):
         x_concat = self.conv_x(x_t).cuda()
@@ -40,13 +32,8 @@ class DeformableConvLSTMCell(nn.Module):
 
         i_t = torch.sigmoid(i_x + i_h + self.Wci * c_t)
 
-        # 为了减少训练过程中遗忘的规模
-        # 因为sigmoid(x)的特点是x越大越接近1，这样始终让里面的值有一个固定偏置
-        # 这样会使得sigmoid(f_x + f_h + self.Wcf * c_t + self._forget_bias)不会太小，能记住之前更多的信息
-
         f_t = torch.sigmoid(f_x + f_h + self.Wcf * c_t + self._forget_bias)
 
-        # g_t = torch.tanh(g_x + g_h + self.Wcg * c_t)
         g_t = torch.tanh(g_x + g_h)
 
         c_new = f_t * c_t + i_t * g_t
