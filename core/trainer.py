@@ -3,9 +3,9 @@ import datetime
 import numpy as np
 from skimage.metrics import structural_similarity as SSIM
 from core.utils import preprocess, metrics
-from sklearn.metrics import mean_squared_error  # 均方误差
-from sklearn.metrics import mean_absolute_error  # 平方绝对误差
-from sklearn.metrics import r2_score  # R square
+from sklearn.metrics import mean_squared_error  
+from sklearn.metrics import mean_absolute_error  
+from sklearn.metrics import r2_score 
 from scipy import stats
 
 train_loss = []
@@ -93,7 +93,7 @@ def valid(model, valid_input_handle, configs, itr):
     print("RMSE: ", np.sqrt(mean_squared_error(org, pre)))
     print("MAE：", mean_absolute_error(org, pre))
     print("R2：", r2_score(org, pre))
-    print("相关系数：", r)
+    print("r：", r)
     print("ssim: ", np.mean(ssim_seq))
 
     return sum(val_loss) / len(val_loss)
@@ -198,7 +198,7 @@ def test(model, test_input_handle, configs, itr):
     print("RMSE: ", np.sqrt(mean_squared_error(org, pre)))
     print("MAE：", mean_absolute_error(org, pre))
     print("R2：", r2_score(org, pre))
-    print("相关系数：", r)
+    print("r：", r)
     print("ssim: ", np.mean(ssim_seq))
 
     filename = configs.gen_frm_dir + '/test_result.txt'
