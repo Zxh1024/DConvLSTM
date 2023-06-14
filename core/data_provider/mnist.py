@@ -41,7 +41,6 @@ class InputHandle:
     def total(self):
         return self.data['clips'].shape[1]
 
-    # 修改
     def begin(self, do_shuffle=False):
         self.indices = np.arange(self.total(), dtype="int32")
         if do_shuffle:
