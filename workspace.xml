@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb195631-ce08-4cb7-a4f6-dfb2a4ca24bc" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/core/trainer.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core/models/model_factory.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core/data_provider/mnist.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/core/data_provider/datasets_factory.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FmpjanppFx4OYyhsuGXYhEvqJe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\DL\modify\upload\core" />
+      <recent name="E:\Projects\DL\modify\upload\core\models" />
+      <recent name="E:\Projects\DL\modify\upload" />
+      <recent name="E:\Projects\DL\modify\upload\core\layers" />
+      <recent name="E:\Projects\DL\modify\dfConvLSTM\core\layers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.run">
+    <configuration name="SAM1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="predrnn-pytorch-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/utils/SAM1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="W_loss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="predrnn-pytorch-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/utils/W_loss.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="convlstm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="predrnn-pytorch-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/models/convlstm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="predrnn-pytorch-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="--is_training 1 --device cuda --dataset_name mnist --train_data_paths D:\data\new_data2\era5data_2\tp_moran2\last_data\mydata_train.npz --valid_data_paths D:\data\new_data2\era5data_2\tp_moran2\last_data\mydata_valid.npz --test_data_paths D:\data\new_data2\era5data_2\tp_moran2\last_data\mydata_test.npz --save_dir checkpoints\12_12\new_data2\era5data_1\tp\418allDSAC120 --gen_frm_dir results\12_12\new_data2\era5data_1\tp\418allDSAC120 --x_out_file results\12_12\new_data2\era5data_1\tp\418allDSAC120\o --gx_out_file results\12_12\new_data2\era5data_1\tp\418allDSAC120\p --img_channel 2 --model_name defconvlstm --reverse_input 0 --img_width 19 --input_length 3 --total_length 4 --num_hidden 64,64,64,64 --filter_size 3 --stride 1 --patch_size 1 --layer_norm 0 --scheduled_sampling 1 --sampling_stop_iter 100 --sampling_start_value 1.0 --sampling_changing_rate 0.00002 --lr 0.0005 --batch_size 16 --max_iterations 120 --display_interval 120 --test_interval 120 --snapshot_interval 120 --MaxValue 268.9054 --MinValue 0.0 --weight_decay 0.0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="predrnn-pytorch-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.convlstm" />
+      <item itemvalue="Python.W_loss" />
+      <item itemvalue="Python.SAM1" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.SAM1" />
+        <item itemvalue="Python.W_loss" />
+        <item itemvalue="Python.convlstm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb195631-ce08-4cb7-a4f6-dfb2a4ca24bc" name="Changes" comment="" />
+      <created>1665107249317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665107249317</updated>
+      <workItem from="1665107250776" duration="2125000" />
+      <workItem from="1665387119843" duration="13846000" />
+      <workItem from="1665469165276" duration="6746000" />
+      <workItem from="1665484106355" duration="13399000" />
+      <workItem from="1665621195606" duration="5420000" />
+      <workItem from="1665654812907" duration="28606000" />
+      <workItem from="1665969599735" duration="3066000" />
+      <workItem from="1665973147858" duration="17984000" />
+      <workItem from="1666054826532" duration="3121000" />
+      <workItem from="1666082073030" duration="24541000" />
+      <workItem from="1666265647122" duration="8870000" />
+      <workItem from="1666315343315" duration="37112000" />
+      <workItem from="1666506042767" duration="38383000" />
+      <workItem from="1666620981531" duration="4185000" />
+      <workItem from="1666625608525" duration="6948000" />
+      <workItem from="1666681922006" duration="267000" />
+      <workItem from="1666682642417" duration="9580000" />
+      <workItem from="1666790042458" duration="3068000" />
+      <workItem from="1666800276126" duration="4710000" />
+      <workItem from="1666841400987" duration="556000" />
+      <workItem from="1666841973067" duration="467000" />
+      <workItem from="1666852270105" duration="1771000" />
+      <workItem from="1666934471487" duration="1105000" />
+      <workItem from="1667202807152" duration="275000" />
+      <workItem from="1667203848513" duration="80000" />
+      <workItem from="1667205783810" duration="24000" />
+      <workItem from="1667310059851" duration="5339000" />
+      <workItem from="1667390958155" duration="35635000" />
+      <workItem from="1667650019384" duration="10784000" />
+      <workItem from="1667828185215" duration="33458000" />
+      <workItem from="1667979772273" duration="36823000" />
+      <workItem from="1668391217078" duration="14006000" />
+      <workItem from="1668491421623" duration="38103000" />
+      <workItem from="1669037453228" duration="10615000" />
+      <workItem from="1669122688606" duration="4514000" />
+      <workItem from="1669185268165" duration="13406000" />
+      <workItem from="1669270573734" duration="29504000" />
+      <workItem from="1669347165549" duration="12294000" />
+      <workItem from="1669380921595" duration="4275000" />
+      <workItem from="1669512266763" duration="96821000" />
+      <workItem from="1669971212279" duration="28539000" />
+      <workItem from="1670153059091" duration="21415000" />
+      <workItem from="1670221965040" duration="40574000" />
+      <workItem from="1670397878707" duration="1002000" />
+      <workItem from="1670400062522" duration="1247000" />
+      <workItem from="1670403059010" duration="1340000" />
+      <workItem from="1670404830395" duration="22246000" />
+      <workItem from="1670557823651" duration="1416000" />
+      <workItem from="1670559593580" duration="2553000" />
+      <workItem from="1670571238383" duration="1778000" />
+      <workItem from="1670598588744" duration="13000" />
+      <workItem from="1670757940374" duration="8225000" />
+      <workItem from="1675992061421" duration="1141000" />
+      <workItem from="1676037638608" duration="12113000" />
+      <workItem from="1676163426955" duration="5223000" />
+      <workItem from="1676194850021" duration="2013000" />
+      <workItem from="1676388656544" duration="33506000" />
+      <workItem from="1676589819621" duration="175512000" />
+      <workItem from="1677986067150" duration="3414000" />
+      <workItem from="1678023876076" duration="1885000" />
+      <workItem from="1678093803012" duration="73257000" />
+      <workItem from="1678433032896" duration="36474000" />
+      <workItem from="1678717452493" duration="51061000" />
+      <workItem from="1678918618983" duration="49147000" />
+      <workItem from="1679226688467" duration="24551000" />
+      <workItem from="1679573423125" duration="24727000" />
+      <workItem from="1680337121524" duration="5705000" />
+      <workItem from="1680487094721" duration="13647000" />
+      <workItem from="1680787465497" duration="1201000" />
+      <workItem from="1680900246460" duration="792000" />
+      <workItem from="1681128172332" duration="34000" />
+      <workItem from="1681128244641" duration="2591000" />
+      <workItem from="1681374443744" duration="1092000" />
+      <workItem from="1681822975730" duration="12868000" />
+      <workItem from="1681874581440" duration="9825000" />
+      <workItem from="1681973818743" duration="61000" />
+      <workItem from="1683170467790" duration="1399000" />
+      <workItem from="1683512299088" duration="572000" />
+      <workItem from="1683550863820" duration="2592000" />
+      <workItem from="1683678793317" duration="1783000" />
+      <workItem from="1684945900516" duration="112000" />
+      <workItem from="1684946015081" duration="417000" />
+      <workItem from="1685261124715" duration="21000" />
+      <workItem from="1685279651999" duration="2423000" />
+      <workItem from="1686146791401" duration="8711000" />
+      <workItem from="1686214798404" duration="4725000" />
+      <workItem from="1686726209563" duration="3068000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../modify/convlstm/core/layers/CBAM.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dfConvLSTM$SA.coverage" NAME="SA Coverage Results" MODIFIED="1677632059750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/utils" />
+    <SUITE FILE_PATH="coverage/dfConvLSTM$CBAM.coverage" NAME="CBAM Coverage Results" MODIFIED="1676466131706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/utils" />
+    <SUITE FILE_PATH="coverage/dfConvLSTM$test.coverage" NAME="test Coverage Results" MODIFIED="1686217003757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dfConvLSTM$SAM1.coverage" NAME="SAM1 Coverage Results" MODIFIED="1680768394016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/utils" />
+    <SUITE FILE_PATH="coverage/dfConvLSTM$CBAM2.coverage" NAME="CBAM2 Coverage Results" MODIFIED="1676466438974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/utils" />
+    <SUITE FILE_PATH="coverage/dfConvLSTM$convlstm.coverage" NAME="convlstm Coverage Results" MODIFIED="1678244128779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/models" />
+    <SUITE FILE_PATH="coverage/dfConvLSTM$run.coverage" NAME="run Coverage Results" MODIFIED="1681950478998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dfConvLSTM$W_loss.coverage" NAME="W_loss Coverage Results" MODIFIED="1678965912457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/utils" />
+    <SUITE FILE_PATH="coverage/dfConvLSTM5$run.coverage" NAME="run Coverage Results" MODIFIED="1676164404628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dfConvLSTM$defconvlstm.coverage" NAME="defconvlstm Coverage Results" MODIFIED="1678238321916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core/models" />
+  </component>
+</project>
