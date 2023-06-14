@@ -13,7 +13,6 @@ def data_provider(dataset_name, train_data_paths, valid_data_paths, test_data_pa
     valid_data_list = valid_data_paths.split(',')
     test_data_list = test_data_paths.split(',')
     if dataset_name == 'mnist':
-        # test输入数据参数
         test_input_param = {'paths': test_data_list,
                             'minibatch_size': batch_size,
                             'input_data_type': 'float32',
