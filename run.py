@@ -246,7 +246,7 @@ def train_wrapper(model):
 
             plt.plot(range(len(train_loss)), train_loss, label='train_loss')
             plt.plot(range(len(valid_loss)), valid_loss, label='valid_loss')
-            plt.legend()  # 显示标签
+            plt.legend()  
             plt.xlabel('epochs')
             plt.ylabel('loss')
             plt.savefig(args.gen_frm_dir + '/loss.jpg')
