@@ -2,7 +2,7 @@
 
 This repository includes code for the paper: DConvLSTM-SAC: Incorporating spatial autocorrelation into Deformable ConvLSTM for hourly precipitation forecasting.
 
-We present a new model, DConvLSTM-SAC, that employs deformable convolution for irregularly distributed precipitation data and measures spatial autocorrelation through the local Moran index to enhance spatial information extraction. Compared to decision tree regression, random forest regression, recurrent neural networks, and convolutional LSTM, the DConvLSTM-SAC model exhibits superior performance.
+We present a new model, DConvLSTM-SAC, that employs deformable convolution for irregularly distributed precipitation data and measures spatial autocorrelation through the local Moran index to enhance spatial information extraction. Compared to decision tree regression, random forest regression, recurrent neural networks, and convlstm, the DConvLSTM-SAC model exhibits superior performance.
 
 ![image](https://github.com/Zxh1024/DConvLSTM/assets/51319967/efa57cc7-2c02-4f17-8e3d-de207cf1ffcd)
 
