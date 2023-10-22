@@ -8,7 +8,7 @@ We present a new model, DConvLSTM-SAC, that employs deformable convolution for i
 
 ## Setup
 
-All code was developed and tested on Nvidia RTX3060Ti the following environment.
+All code was developed and tested on Nvidia RTX3060Ti in the following environment:
 
 - Python 3.6
 - torch
@@ -23,7 +23,7 @@ All code was developed and tested on Nvidia RTX3060Ti the following environment.
 ## Quick Start
 
 The training script has a number of command-line flags that you can use to configure the model architecture, hyperparameters, and input / output settings.
-Below are the parameters about our model:
+Below are some parameters about our model:
 
 - `--model_name`: The model name. Default value is `dconvlstm_sac`.
 - `--pretrained_model`: Directory to find our pretrained models. See below for the download instruction.
