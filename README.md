@@ -4,7 +4,7 @@ This repository includes code for the paper: DConvLSTM-SAC: Incorporating spatia
 
 We present a new model, DConvLSTM-SAC, that employs deformable convolution for irregularly distributed precipitation data and measures spatial autocorrelation through the local Moran index to enhance spatial information extraction. Compared to decision tree regression, random forest regression, recurrent neural networks, and convolutional LSTM, the DConvLSTM-SAC model exhibits superior performance.
 
-![image-20231022110226968](C:\Users\18702\AppData\Roaming\Typora\typora-user-images\image-20231022110226968.png)
+![image](https://github.com/Zxh1024/DConvLSTM/assets/51319967/efa57cc7-2c02-4f17-8e3d-de207cf1ffcd)
 
 ## Setup
 
