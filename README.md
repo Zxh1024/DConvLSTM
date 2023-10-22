@@ -25,10 +25,10 @@ All code was developed and tested on Nvidia RTX3060Ti the following environment.
 The training script has a number of command-line flags that you can use to configure the model architecture, hyperparameters, and input / output settings.
 Below are the parameters about our model:
 
-- `--model_name`: The model name. Default value is `dconvlstm-sac`.
+- `--model_name`: The model name. Default value is `dconvlstm_sac`.
 - `--pretrained_model`: Directory to find our pretrained models. See below for the download instruction.
-- `--num_hidden`: Comma separated number of units of dconvlstm-sac
-- `--filter_size`: Filter of a single dconvlstm-sac layer.
+- `--num_hidden`: Comma separated number of units of dconvlstm_sac
+- `--filter_size`: Filter of a single dconvlstm_sac layer.
 - `--layer_norm`: Whether to apply tensor layer norm.
 
 - `--is_training`: Is it training or testing.
